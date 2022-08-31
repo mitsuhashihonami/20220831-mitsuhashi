@@ -5,13 +5,13 @@
   font-weight: bolder;
 }
 .header__nav{
-  list-style: none;
   color: #000080;
   font-weight: bolder;
 }
 .nav__ul{
   display: flex;
   justify-content: flex-end;
+list-style: none;
 }
 .nav__list{
   margin: 0 10px;
@@ -19,18 +19,27 @@
 .main{
   position: relative;
 }
+.main__img {
+  text-align: right;
+  position: relative;
+  z-index: 2; 
+  
+}
+.img{
+  width: 50%;
+  height: auto;
+  margin-top: 100px;
+}
 .main__box{
   background-color: #000080;
-  width: 700px;
-  height: 150px;
+  width: 70%;
+  height: 200px;
   position: absolute;
-  bottom: 50px;
+  bottom: -10%;
+  z-index: 0;
   }
 .main__txst{
   position: absolute;
-  bottom: 250px;
-}
-.main__img{
-  display: flex;
-  justify-content: flex-end;
+  bottom: 20px;
+  font-size: 100px;
 }
