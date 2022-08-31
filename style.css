@@ -1,0 +1,36 @@
+
+.header__log{
+  float: left;
+  color: #000080;
+  font-weight: bolder;
+}
+.header__nav{
+  list-style: none;
+  color: #000080;
+  font-weight: bolder;
+}
+.nav__ul{
+  display: flex;
+  justify-content: flex-end;
+}
+.nav__list{
+  margin: 0 10px;
+}
+.main{
+  position: relative;
+}
+.main__box{
+  background-color: #000080;
+  width: 700px;
+  height: 150px;
+  position: absolute;
+  bottom: 50px;
+  }
+.main__txst{
+  position: absolute;
+  bottom: 250px;
+}
+.main__img{
+  display: flex;
+  justify-content: flex-end;
+}
